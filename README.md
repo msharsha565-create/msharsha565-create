@@ -4,7 +4,7 @@
 
 [Portfolio site](https://msharsha565-create.github.io) · [All repositories](https://github.com/msharsha565-create?tab=repositories)
 
-**Contact:** [saiharshamylavara@gmail.com](mailto:saiharshamylavara@gmail.com) · 940-290-1769
+**Contact:** [saiharshamylavara@gmail.com](mailto:saiharshamylavara@gmail.com) · 940-290-1769 · [LinkedIn](https://www.linkedin.com/in/sai-vardhan-mylavarapu-722b67388/)
 
 ---
 
