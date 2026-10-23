@@ -51,7 +51,7 @@ Also: [docsearch-mcp](https://github.com/msharsha565-create/docsearch-mcp), loca
 | llm-eval-harness, "final answer only" system prompt | 53/55 (96%) | Ran on the suite before two prompts were fixed; rerun pending a quota reset |
 | sqlite-mcp-explorer text-to-SQL benchmark | 53/53 (100%) | Small, easy benchmark: shows the pipeline works, does not rank models; one question was reworded after a 98% first run |
 
-The judged cases are graded by the same model. The Claude agents in k8s-manifest-guardrail and depwatch-mcp have not been run live yet. Details are in each repo's README.
+The judged cases are graded by the same model. The agents in k8s-manifest-guardrail and depwatch-mcp run on Claude or any OpenAI-compatible API such as Gemini, but have not been run live yet. Details are in each repo's README.
 
 ## Stack
 
