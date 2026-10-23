@@ -41,6 +41,16 @@ An MCP server giving agents live dependency-health data from PyPI and npm, plus 
 
 Also: [docsearch-mcp](https://github.com/msharsha565-create/docsearch-mcp), local BM25 document search with cited sources as an MCP server.
 
+## Live results (Gemini, `gemini-3.1-flash-lite`, free tier, one run each, 2026-10-22)
+
+| Eval | Result | Caveat |
+| --- | --- | --- |
+| llm-eval-harness, plain prompt | 41/55 (75%) | Formatting, not ability: "17 + 25 = 42" fails exact match on all 13 arithmetic cases |
+| llm-eval-harness, "final answer only" system prompt | 53/55 (96%) | Ran on the suite before two prompts were fixed; rerun pending a quota reset |
+| sqlite-mcp-explorer text-to-SQL benchmark | 53/53 (100%) | Small, easy benchmark: shows the pipeline works, does not rank models; one question was reworded after a 98% first run |
+
+The judged cases are graded by the same model. The Claude agents in k8s-manifest-guardrail and depwatch-mcp have not been run live yet. Details are in each repo's README.
+
 ## Stack
 
 Python · Model Context Protocol · Anthropic API (tool use) · OpenAI-compatible APIs (Ollama, vLLM) · SQLite · Starlette · pytest · ruff · Docker · GitHub Actions
