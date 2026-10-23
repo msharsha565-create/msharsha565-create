@@ -1,6 +1,6 @@
 # Sai Harsha Vardhan Mylavarapu
 
-**AI / LLM engineer.** I build tool-using agents (MCP + Claude) and the evaluation and verification layers that make their output trustworthy.
+**AI / LLM engineer.** I build evaluation and verification tooling for LLM systems: MCP servers, text-to-SQL benchmarks, and regression gates that catch problems before they ship.
 
 [Portfolio site](https://msharsha565-create.github.io) · [All repositories](https://github.com/msharsha565-create?tab=repositories)
 
