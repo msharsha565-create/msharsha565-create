@@ -22,11 +22,24 @@ llm-eval run --model rules-v1 --out v1.json && llm-eval run --model rules-v2 --o
 llm-eval compare v1.json v2.json; echo "exit code: $?"
 ```
 
-## Background
+## Experience
 
-- **Education:** Ph.D. in Information Technology (Artificial Intelligence), University of the Cumberlands. Doctoral research on AI governance: technology risk classification, AI policy forecasting, and an adaptive governance framework.
+**Independent projects, 2026 – present**
+
+- **[llm-eval-harness](https://github.com/msharsha565-create/llm-eval-harness)** (Oct 2026 –): fails a CI build when a model update breaks something that used to work. In the demo, two runs both scored 84% and it still caught 2 hidden regressions. Python. Working, CI passing.
+- **[sqlite-mcp-explorer](https://github.com/msharsha565-create/sqlite-mcp-explorer)** (Oct 2026 –): lets an AI agent query a database but never change it, with a 53-question text-to-SQL benchmark. Python. Working, CI passing.
+- **[OmniBrain backend](https://github.com/msharsha565-create/omnibrain-backend/tree/feature/real-rag)** (Feb 2026 –), *in progress*: login, per-user usage limits and document question-answering (RAG) in Java 21 and Spring Boot. The security cleanup and a working RAG pipeline are on the `feature/real-rag` branch and not yet merged into `main`.
+- **[k8s-manifest-guardrail](https://github.com/msharsha565-create/k8s-manifest-guardrail)** (Oct 2026 –): rejects bad Kubernetes YAML written by an AI before it reaches a cluster. Python. Working, CI passing.
+- **[depwatch-mcp](https://github.com/msharsha565-create/depwatch-mcp)** (Oct 2026 –): gives AI agents live dependency-health data from PyPI and npm. Python. Working, CI passing.
+- **[docsearch-mcp](https://github.com/msharsha565-create/docsearch-mcp)** (Oct 2026 –): local document search with cited sources and no API key. Python. Working, CI passing.
+
+**Professional experience:** employers, titles and dates are on [my LinkedIn profile](https://www.linkedin.com/in/sai-vardhan-mylavarapu-722b67388/).
+
+## Education and skills
+
+- **Education:** Ph.D. candidate, Information Technology (Artificial Intelligence), University of the Cumberlands (*in progress*). Doctoral research on AI governance: technology risk classification, AI policy forecasting, and an adaptive governance framework.
 - **Experience areas:** software engineering with enterprise identity and access management (Okta, SailPoint, Oracle IAM; OAuth2, OpenID Connect, SAML, LDAP), cloud (AWS, Azure), and Java / Spring Boot microservices.
-- **Languages and tools:** Java, Python, Go, JavaScript, SQL; Spring Boot, Kafka; Docker, Kubernetes; PostgreSQL, Oracle, SQL Server. The projects below are the Python work I can show publicly.
+- **Languages and tools:** Java, Python, Go, JavaScript, SQL; Spring Boot, Kafka; Docker, Kubernetes; PostgreSQL, Oracle, SQL Server.
 
 ## Featured projects
 
