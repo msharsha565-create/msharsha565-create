@@ -12,6 +12,16 @@
 
 LLMs are good at drafting and bad at being right. My projects pair a model with a deterministic check, so output is validated against real data, measured, and fixed in a loop before anyone relies on it.
 
+## See it in 15 seconds
+
+**[Terminal recording and interactive report](https://msharsha565-create.github.io/#demo)**: two versions of a baseline both score 84%, but `llm-eval compare` finds two broken cases and exits with code 1 (the exit code that fails a CI build). Run it yourself:
+
+```bash
+pip install git+https://github.com/msharsha565-create/llm-eval-harness
+llm-eval run --model rules-v1 --out v1.json && llm-eval run --model rules-v2 --out v2.json
+llm-eval compare v1.json v2.json; echo "exit code: $?"
+```
+
 ## Background
 
 - **Education:** Ph.D. in Information Technology (Artificial Intelligence), University of the Cumberlands. Doctoral research on AI governance: technology risk classification, AI policy forecasting, and an adaptive governance framework.
