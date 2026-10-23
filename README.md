@@ -12,6 +12,12 @@
 
 LLMs are good at drafting and bad at being right. My projects pair a model with a deterministic check, so output is validated against real data, measured, and fixed in a loop before anyone relies on it.
 
+## Background
+
+- **Education:** Ph.D. in Information Technology (Artificial Intelligence), University of the Cumberlands. Doctoral research on AI governance: technology risk classification, AI policy forecasting, and an adaptive governance framework.
+- **Experience areas:** software engineering with enterprise identity and access management (Okta, SailPoint, Oracle IAM; OAuth2, OpenID Connect, SAML, LDAP), cloud (AWS, Azure), and Java / Spring Boot microservices.
+- **Languages and tools:** Java, Python, Go, JavaScript, SQL; Spring Boot, Kafka; Docker, Kubernetes; PostgreSQL, Oracle, SQL Server. The projects below are the Python work I can show publicly.
+
 ## Featured projects
 
 ### [llm-eval-harness](https://github.com/msharsha565-create/llm-eval-harness)
